@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Lab №2</title>
+   <link type="text/css" rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <a href="" class="header__logo"></a>
+         <nav class="header__menu">
+            <ul class="header__list">
+               <li>
+                  <a href="" class="header__link">Menu item</a>
+               </li>
+               <li>
+                  <a href="" class="header__link">Menu item</a>
+               </li>
+               <li>
+                  <a href="" class="header__link">Menu item</a>
+               </li>
+               <li>
+                  <a href="" class="header__link">Menu item</a>
+               </li>
+            </ul>
+            <div class="header__burger">
+               <span></span>
+            </div>
+         </nav>
+      </header>
+      <main class="main">
+         <aside class="sidebar">
+            <nav class="sidebar__menu">
+               <ul class="sidebar__list">
+                  <li>
+                     <a href="" class="sidebar__link">Menu item</a>
+                  </li>
+                  <li>
+                     <a href="" class="sidebar__link">Menu item</a>
+                  </li>
+                  <li>
+                     <a href="" class="sidebar__link">Menu item</a>
+                  </li>
+                  <li>
+                     <a href="" class="sidebar__link">Menu item</a>
+                  </li>
+               </ul>
+            </nav>
+         </aside>
+         <section class="content">
+            <h1 class="content__title">Museum</h1>
+            <section class="content__gallery gallery">
+               <h2 class="gallery__title">Gallery</h2>
+               <div class="gallery__items">
+                  <div class="gallery__item gallery__item_big">
+                     <img src="img/01.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/02.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/03.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/04.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/05.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/06.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/07.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/08.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/09.jpg">
+                  </div>
+                  <div class="gallery__item">
+                     <img src="img/10.jpg">
+                  </div>
+               </div>
+            </section>
+            <section class="content__products products">
+               <h2 class="products__title">Selection</h2>
+               <div class="products__items">
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/01.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/06.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/01.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/06.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/02.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+                  <div class="products__item">
+                     <a href="" class="products__image">
+                        <img src="img/04.jpg">
+                     </a>
+                     <a href="" class="products__name">Description</a>
+                     <a href="" class="products__button">Info</a>
+                  </div>
+               </div>
+            </section>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__copy">
+            2024
+         </div>
+         <div class="footer__text">
+            2024
+         </div>
+      </footer>
+   </div>
+   </div>
+   <div class="container">
+      <div class="modal-container" id="modal-container">
+         <div class="modal" id="modal">
+            <button class="close-btn" id="close"><i class="fa fa-times"></i></button>
+            <div class="modal-content">
+               <div class="headerr">
+                  <h2 class="logo">Subscribe to Notifications</h2>
+                  <p class="tagline">something big is coming</p>
+                  <p>Would you like to subscribe to our notifications?</p>
+               </div>
+               <form>
+                  <button class="subscribe" id="subscribe">Subscribe</button>
+                  <button class="close" id="cancel">Cancel</button>
+               </form>
+               <div id="modalpopup" class="modalpopup">
+                  <div class="model-container">
+                     <span class="cancel" id="closeAdvBtn" style="display: block;">&times;</span>
+                     <p>Your advertisment is here!</p>
+                     <p id="countdown">Remains: <span id="timer">10</span>seconds</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
